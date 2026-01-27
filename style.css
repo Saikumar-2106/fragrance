@@ -1310,7 +1310,7 @@ footer .logo {
     height: auto;
     text-align: center;
     width: 100%;
-    display: block;
+    display: flex;
     padding: 5px;
   }
 
@@ -1321,7 +1321,7 @@ footer .logo {
   
   .product {
     width: 100%;
-    display: block;
+    display: flex;
     padding: 5px;
     text-align: center;
   }
@@ -1341,7 +1341,7 @@ footer .logo {
   }
 
   .right {
-    display: block;
+    display: flex;
     width: 100%;
     height: auto;
     margin: auto;
@@ -1368,7 +1368,7 @@ footer .logo {
   }
 
   .options {
-    display: block;
+    display: flex;
     height: max-content;
     justify-content: center;
   }
@@ -1387,21 +1387,21 @@ footer .logo {
   }
 
   .box-set {
-    display: block;
+    display: flex;
     width: 80%;
     padding: 0;
     margin: 0 auto;
   }
 
   .box-set img {
-    display: block;
+    display: flex;
     width: 90%;
     padding: 0;
     margin: 0 auto;
   }
 
   .box-1 {
-    display: block;
+    display: flex;
     width: 100%;
     height: auto;
     margin-bottom: 5px;
@@ -1414,23 +1414,23 @@ footer .logo {
 
   .collection-section {
     width: 100%;
-    display: block;
+    display: flex;
     margin: auto;
     text-align: center;
   }
 
   .collection-container {
-    display: block;
+    display: flex;
   }
 
   .collection-left {
-    display: block;
+    display: flex;
     margin: 10px;
     
   }
 
   .collection-right {
-    display: block;
+    display: flex;
     margin: 10px;
   }
   .stats-section {
@@ -1457,19 +1457,19 @@ footer .logo {
   }
 
   .footer-container {
-    display: block;
+    display: flex;
     flex-direction: column;
     gap: 5px;
   }
 
   .footer-right {
-    display: block;
+    display: flex;
     gap: 20px;
 
   }
 
   .subscribe-box {
-    display: block;
+    display: flex;
     width: 100%;
     height: auto;
     margin: 12px auto;
@@ -1487,4 +1487,3 @@ footer .logo {
   }
 
 }
-
