@@ -1488,51 +1488,52 @@ footer .logo {
 
 }
 
-
-@media (min-width: 768px) and (max-width: 1023px) {
-
-  * {
-    width: 100%;
-  }
+@media (min-width: 1024px) {
 
   body {
-    font-size: 12px;
+    font-size: 14px;
     overflow-x: hidden;
   }
 
   .container {
-    display: block;
-    max-width: 100%;
-    padding: 0 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 40px;
   }
 
   .hero {
-    padding: 60px 20px;
+    padding: 100px 60px;
+  }
+
+  .hero-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 60px;
   }
 
   .hero-stats {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    gap: 20px;
+    gap: 30px;
   }
 
   .main-image {
-    height: 350px;
+    height: 500px;
     width: 100%;
     object-fit: cover;
   }
 
   .thumbnails {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    gap: 10px;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 15px;
   }
 
   .collection-container {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
   }
 
 }
