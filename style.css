@@ -1502,12 +1502,14 @@ footer .logo {
 
 @media (min-width: 1024px) {
   * {
+    width:100%;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
   }
 
   body {
+    width: 100%;
     background: #f7f7f7;
     color: #133;
     overflow-x: hidden;
@@ -1515,6 +1517,7 @@ footer .logo {
   }
 
   .header {
+    width:100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -1558,6 +1561,7 @@ footer .logo {
 
   .hero {
     display: flex;
+    width: 100%;
     justify-content: space-between;
     align-items: center;
     height: 100vh;
@@ -2313,6 +2317,7 @@ footer .logo {
   }
 
   body {
+    width: 100%;
     background: #f7f7f7;
     color: #133;
     overflow-x: hidden;
@@ -2320,6 +2325,7 @@ footer .logo {
   }
 
   .header {
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -2362,6 +2368,7 @@ footer .logo {
   }
 
   .hero {
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
