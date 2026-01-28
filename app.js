@@ -1,11 +1,13 @@
 
 const images = [
-  "https://images.unsplash.com/photo-1615634260167-c8cdede054de",
   "https://images.unsplash.com/photo-1523293182086-7651a899d37f",
-  "https://images.unsplash.com/photo-1501004318641-b39e6451bec6",
-  "https://images.unsplash.com/photo-1519682337058-a94d519337bc",
-  "https://images.unsplash.com/photo-1528825871115-3581a5387919",
-  "https://images.unsplash.com/photo-1501004318641-b39e6451bec6"
+  "https://images.pexels.com/photos/15097440/pexels-photo-15097440.jpeg",
+  "https://images.pexels.com/photos/33820343/pexels-photo-33820343.jpeg",
+  "https://images.pexels.com/photos/12456258/pexels-photo-12456258.jpeg",
+  "https://images.pexels.com/photos/7270663/pexels-photo-7270663.jpeg",
+  "https://images.pexels.com/photos/31117962/pexels-photo-31117962.jpeg",
+  "https://images.pexels.com/photos/21008920/pexels-photo-21008920.jpeg",
+  "https://images.pexels.com/photos/1961791/pexels-photo-1961791.jpeg"
 ];
 
 let currentIndex = 0;
@@ -51,8 +53,6 @@ dots.forEach((dot, index) => {
 updateSlider(0);
 
 
-
-
 const subscriptionRadios = document.querySelectorAll(
   'input[name="subscription"]'
 );
@@ -70,8 +70,6 @@ subscriptionRadios.forEach(radio => {
     }
   });
 });
-
-
 
 
 const addToCartBtn = document.getElementById("addToCart");
@@ -105,7 +103,6 @@ addToCartBtn.addEventListener("click", () => {
       JSON.stringify(cartItem, null, 2)
   );
 });
-
 
 
 const accordionItems = document.querySelectorAll(".accordion-item");
@@ -183,7 +180,7 @@ table.addEventListener("click", function (e) {
 
 
 const hamburger = document.getElementById("hamburger");
-const nav = document.getElementById("nav");
+const nav = document.getElementById("navbar");
 
 hamburger.addEventListener("click", () => {
   nav.classList.toggle("active");
