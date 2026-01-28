@@ -1496,12 +1496,14 @@ footer .logo {
   }
 
   .container {
+    display: flex;
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 40px;
   }
 
   .hero {
+    display: flex;
     padding: 100px 60px;
   }
 
@@ -1525,15 +1527,34 @@ footer .logo {
   }
 
   .thumbnails {
-    display: grid;
+    display: flex;
     grid-template-columns: repeat(6, 1fr);
     gap: 15px;
   }
 
   .collection-container {
-    display: grid;
+    display: flex;
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
+  }
+
+}
+
+
+@media (min-width: 1440px) {
+
+  .container {
+    display: flex;
+    max-width: 1320px;
+  }
+
+  .hero {
+    display: flex;
+    padding: 120px 80px;
+  }
+
+  .main-image {
+    height: 600px;
   }
 
 }
